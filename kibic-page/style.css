@@ -18,7 +18,7 @@ body {
 #header a {
   float: right;
   font-size: 27px;
-  padding: 4em 0.5em;
+  padding: 4em 0.7em;
   text-decoration: none;
 }
 #header a:hover {
@@ -34,4 +34,30 @@ body {
   min-width: 100%;
   max-height: 450px;
   margin-top: -6.6em;
+}
+
+/* DESCRIPTION SECTION */
+#description {
+  max-width: 450px;
+  min-height: 20em;
+  margin: 15em 7em;
+  float: left;
+}
+#description img {
+  min-width: 150px;
+  max-height: 150px;
+}
+#description .description-text {
+  padding: 15px 15px;
+}
+
+/* TRANSITION SECTION */
+#transition {
+  min-width: 100%;
+  min-height: 20em;
+  background: #000000;
+}
+
+.copyright {
+  font-size: 26px;
 }
