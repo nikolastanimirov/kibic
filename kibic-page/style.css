@@ -1,0 +1,37 @@
+body {
+  font-size: 16px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* HEADER SECTION */
+#header {
+  max-width: 100%;
+  max-height: 10em;
+  background: #000000;
+}
+.header-logo img {
+  max-width: 250px;
+  max-height: 150px;
+  padding-left: 5em;
+}
+#header a {
+  float: right;
+  font-size: 27px;
+  padding: 4em 0.5em;
+  text-decoration: none;
+}
+#header a:hover {
+  color: bisque;
+}
+
+/* SLIDER SECTION */
+#slider {
+  max-width: 100%;
+  max-height: 350px;
+}
+#slider img {
+  min-width: 100%;
+  max-height: 450px;
+  margin-top: -6.6em;
+}
